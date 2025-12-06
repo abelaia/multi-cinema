@@ -1,0 +1,13 @@
+@import './styles/fonts.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy', sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}

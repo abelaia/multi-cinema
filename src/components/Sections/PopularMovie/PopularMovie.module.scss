@@ -1,0 +1,72 @@
+.popular {
+  background-color: #2C2C54;
+  padding: 0 2rem 80px 2rem;
+  margin-top: -50px;
+
+  .titleContainer {
+    max-width: 1300px;
+    margin: 0;
+    margin-bottom: 45px;
+
+    .title {
+      font-family: 'Gilroy', sans-serif;
+      font-weight: 700;
+      font-size: 40px;
+      color: #ffffff;
+      text-align: left;
+      width: 100%;
+    }
+  }
+
+  .movieContainer {
+    display: flex;
+    justify-content: center;
+
+    .cardWrapper {
+      background-color: #2C2C54;
+      width: 1172px;
+      height: 607px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 40px 0 30px 0;
+
+      .moviePoster {
+        width: 976px; 
+        height: 760px; 
+        object-fit: cover;
+        border-radius: 5px;
+        margin-bottom: 25px;
+      }
+
+      .movieInfo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .watchButton {
+          background-color: #686DE0;
+          color: #2C2C54;
+          border: none;
+          padding: 15px 390px;
+          font-family: 'Gilroy', sans-serif;
+          font-weight: 700; 
+          font-size: 24px; 
+          line-height: 100%; 
+          letter-spacing: 0%; 
+          border-radius: 5px;
+          cursor: pointer;
+          transition: all 200ms ease;
+            
+          &:hover {
+            background-color: #7a7dd6;
+          }
+        }
+      }
+    }
+  }
+}
